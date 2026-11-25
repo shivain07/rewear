@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@rewear/web",
   "version": "0.1.0",
   "type": "module",
   "private": true,
@@ -11,18 +11,28 @@
     "check-types": "next typegen && tsc --noEmit"
   },
   "dependencies": {
+    "@hookform/resolvers": "^7.0.9",
     "@repo/ui": "workspace:*",
+    "@tanstack/react-query": "^5.108.4",
+    "axios": "^1.21.1",
+    "lucide-react": "^1.79.0",
     "next": "16.3.8",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-hook-form": "^7.92.0",
+    "zod": "^4.6.7",
+    "zustand": "^5.1.0"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@tailwindcss/postcss": "^4.3.5",
     "@types/node": "26.4.1",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.5",
     "eslint": "10.9.1",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5",
     "typescript": "7.0.2"
   }
 }

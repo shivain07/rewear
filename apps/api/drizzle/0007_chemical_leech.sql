@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "requests_one_active_per_buyer_product" ON "requests" USING btree ("buyer_id","product_id") WHERE "requests"."status" in ('pending', 'accepted');
